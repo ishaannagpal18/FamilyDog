@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-q_1h5vj#_8@=)fsch#6ji!d64-n4)@cvh$sumf5gx*7@d*sqv@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','ishaan18familydog.herokuapp.com']
 
 
 # Application definition
@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
 ]
 
 ROOT_URLCONF = 'FamilyDog.urls'

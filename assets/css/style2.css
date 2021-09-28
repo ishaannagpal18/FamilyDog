@@ -1,0 +1,42 @@
+#header.header-transparent {
+  background: #000000;
+}
+/* Login and Signup Page */
+.line{
+  border:1px solid #ccc;
+    padding-top:67px;
+}
+.login_bottom{
+  width:45%;
+
+  border:1px solid #ccc;
+  padding:40px;
+}
+.login_top{
+  width:45%;
+  border:1px solid #ccc;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.contact{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+@media screen and (max-width: 550px){
+  .line{
+  border:1px solid #ccc;
+    padding-top:56px;
+}
+.login_bottom{
+  width:90%;
+
+  border:1px solid #ccc;
+  padding:40px;
+}
+.login_top{
+  width:90%;
+  border:1px solid #ccc;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+}

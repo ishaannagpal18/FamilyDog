@@ -1,0 +1,122 @@
+#header.header-transparent {
+  background: #000000;
+}
+.product{
+  border:1px solid #ccc;
+  padding:4% 0 0;
+}
+.product-class{
+  padding:3% 0 0%;
+  background-color:rgba(240, 242, 245, 1);
+  text-align:center;
+
+}
+.product-class h1{
+  font-family: 'Lilita One', cursive;
+  font-size:250%;
+  color: black;
+}
+.shipping h4{
+  background-color:black;
+  color:#fff;
+  text-align:center;
+}
+.card{
+  background-color:rgba(240, 242, 245, 1);
+  height: 0%;
+  width: 100%;
+}
+.card-product:after{
+  content: "";
+  display: table;
+  clear: both;
+  visibility: hidden;
+}
+.card-product .price-new, .card-product .price{
+
+  margin-right: 5px;
+}
+.card-product .img-wrap{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+  text-align: center;
+
+}
+.card-prduct .img-wrap img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  background-color:rgba(240, 242, 245, 1);
+  width:100%;
+
+}
+.card-prduct .info-wrap{
+  overflow: hidden;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  background-color:rgba(240, 242, 245, 1);
+
+}
+.card-product .action-wrap{
+  padding-top: 4px;
+  margin-top: 4px;
+}
+.card-prduct .bottom-wrap{
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+.card-prduct .title{
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size:20px;
+}
+.price-wrap{
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  color: black;
+
+}
+
+
+/* Login and Signup Page */
+.line{
+  border:1px solid #ccc;
+    padding-top:67px;
+}
+.login_bottom{
+  width:45%;
+
+  border:1px solid #ccc;
+  padding:40px;
+}
+.login_top{
+  width:45%;
+  border:1px solid #ccc;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.padding{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+@media screen and (max-width: 550px){
+  .line{
+  border:1px solid #ccc;
+    padding-top:56px;
+}
+.login_bottom{
+  width:90%;
+
+  border:1px solid #ccc;
+  padding:40px;
+}
+.login_top{
+  width:90%;
+  border:1px solid #ccc;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+}

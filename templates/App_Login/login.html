@@ -1,0 +1,25 @@
+{% extends 'layouts.html' %}
+{% load crispy_forms_tags %}
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+<center>
+<div class="line">
+
+</div>
+<div class="login_top">
+  <h2>Login User: </h2><br>
+  <form class="container" method="POST">
+    {{ form|crispy}}
+    {% csrf_token %}
+<br>
+  <button type="submit" class="btn btn-success btn-sm" >Login</button>
+
+  </form>
+</div>
+<div class="login_bottom">
+  <p>Doesn't have an Account? <a href="{% url 'App_Login:signup' %}">Create Account</a></p>
+</div>
+{% endblock %}

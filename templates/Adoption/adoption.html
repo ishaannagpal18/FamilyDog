@@ -1,0 +1,31 @@
+{% extends 'layouts.html' %}
+{% block title %}
+Pet Adoption
+{% endblock %}
+{% block content %}
+<div class="product">
+  <div class="container-fluid product-class">
+    <h1>Pet Adoption</h1>
+  </div>
+
+  <div class="container my-5">
+
+    <div class="row">
+      {% for adoption in object_list %}
+      <div class="col-md-6 col-6 col-lg-3">
+        <figure class="card card-prduct">
+          <div class="img-wrap">
+            <a href="{% url 'Adoption:adoption_details' pk=adoption.pk %}"> <img src="/media/{{adoption.mainimage1}}"></a>
+          </div>
+          <figcaption class="info-wrap">
+            <h6 class="title"><a href="{% url 'Adoption:adoption_details' pk=adoption.pk %}"></a></h6>
+          </figcaption>
+        <figure>
+      </div>
+       {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

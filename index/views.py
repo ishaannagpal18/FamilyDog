@@ -35,3 +35,15 @@ def team(request):
 
 def testimonials(request):
     return render(request,'testimonials.html')
+
+def services(request):
+    return render(request,'services.html')
+
+def cremation(request):
+    return render(request,'cremation.html')
+
+def termsofservice(request):
+    return render(request,'termsofservice.html')
+
+def privacypolicy(request):
+    return render(request,'privacypolicy.html')

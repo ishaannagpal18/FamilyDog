@@ -61,17 +61,18 @@
               <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
               <li><a href="{% url 'Adoption:adoption' %}">Pet Adoption</a></li>
           <li><a href="#">Pet Products</a></li>
-          <li><a href="#">Pet Memorabilia</a></li>
+          <li><a href="{% url 'cremation' %}">Pet Cremation</a></li>
 
 
 
           <li class="dropdown"><a href="#"><span>Resource Centre</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
 
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Team</a></li>
+              <li><a href="{% url 'about' %}">About Us</a></li>
+              <li><a href="{% url 'services' %}">Services</a></li>
+              <li><a href="{% url 'team' %}">Team</a></li>
               <li><a href="#">Blogs</a></li>
-              <li><a href="#">Testimonials</a></li>
+              <li><a href="{% url 'testimonials' %}">Testimonials</a></li>
 
             </ul>
           </li>
@@ -110,28 +111,41 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-info">
+          <div class="col-lg-3 col-md-6 footer-info">
             <h3>FamilyDog</h3>
             <p>To provide dignified funeral services, Organic products, and reduce the mortality rate of puppies.
 To work with ethical breeders, source organic ingredients from the world, and deliver end-2-end pet funeral solutions.
 Our vision thrives to add value to society and give our amazing pets the best of products and services they deserve.</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'home' %}">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'Adoption:adoption' %}">Pet Adoption</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Pet Products</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'cremation' %}">Pet Cremation</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'termsofservice' %}">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'privacypolicy' %}">Privacy policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>More Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'about' %}">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'team' %}">Team</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Blogs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'testimonials' %}">Testimonials</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               Platinum Overseas <br>

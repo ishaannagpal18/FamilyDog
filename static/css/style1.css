@@ -105,6 +105,18 @@
   padding-bottom:50px;
 }
 @media screen and (max-width: 550px){
+  #hero{
+    height:50vh;
+  }
+  #hero h2 {
+    font-size: 28px;
+
+  }
+  #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
+    
+    top: 20px;
+
+}
   .line{
   border:1px solid #ccc;
     padding-top:56px;

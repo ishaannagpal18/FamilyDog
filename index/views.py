@@ -39,8 +39,17 @@ def testimonials(request):
 def services(request):
     return render(request,'services.html')
 
-def cremation(request):
-    return render(request,'cremation.html')
+def deceased(request):
+    return render(request,'deceased.html')
+
+def carcass(request):
+    return render(request,'carcass.html')
+
+def ceremony(request):
+    return render(request,'ceremony.html')
+
+def memorabilia(request):
+    return render(request,'memorabilia.html')
 
 def termsofservice(request):
     return render(request,'termsofservice.html')

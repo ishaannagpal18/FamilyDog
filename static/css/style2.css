@@ -1,6 +1,9 @@
 #header.header-transparent {
   background: #000000;
 }
+#hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
+  top: 20px;
+}
 /* Pet Adoption */
 .product{
   border:1px solid #ccc;
@@ -110,27 +113,27 @@
   }
   #hero h2 {
     font-size: 28px;
-
   }
-  #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
-    
-    top: 20px;
-
-}
+  .product {
+    padding: 18% 0 0;
+  }
+  .padding {
+    padding-top: 70px;
+  }
   .line{
   border:1px solid #ccc;
     padding-top:56px;
-}
-.login_bottom{
-  width:90%;
+  }
+  .login_bottom{
+    width:90%;
 
-  border:1px solid #ccc;
-  padding:40px;
-}
-.login_top{
-  width:90%;
-  border:1px solid #ccc;
-  padding-top:50px;
-  padding-bottom:50px;
-}
+    border:1px solid #ccc;
+    padding:40px;
+  }
+  .login_top{
+    width:90%;
+    border:1px solid #ccc;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
 }

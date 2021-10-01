@@ -7,7 +7,10 @@ urlpatterns=[
     path('team/',views.team,name='team'),
     path('testimonials/',views.testimonials,name='testimonials'),
     path('services/',views.services,name='services'),
-    path('cremation/',views.cremation,name='cremation'),
+    path('deceased/',views.deceased,name='deceased'),
+    path('carcass/',views.carcass,name='carcass'),
+    path('ceremony/',views.ceremony,name='ceremony'),
+    path('memorabilia/',views.memorabilia,name='memorabilia'),
     path('termsofservice/',views.termsofservice,name='termsofservice'),
     path('privacypolicy/',views.privacypolicy,name='privacypolicy'),
 ]

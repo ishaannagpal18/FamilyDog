@@ -4,6 +4,12 @@
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   top: 20px;
 }
+#hero h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 400;
+}
 /* Pet Adoption */
 .product{
   border:1px solid #ccc;
@@ -113,6 +119,9 @@
   }
   #hero h2 {
     font-size: 28px;
+  }
+  #hero h3 {
+    font-size: 22px;
   }
   .product {
     padding: 18% 0 0;

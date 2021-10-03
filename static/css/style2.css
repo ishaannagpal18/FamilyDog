@@ -16,6 +16,9 @@
     font-size: 40px;
     font-weight: 800;
 }
+#testimonials .testimonial-item {
+    margin-bottom: 1%;
+}
 /* Pet Adoption */
 .product{
   border:1px solid #ccc;
@@ -132,6 +135,7 @@
   #hero h1 {
     font-size: 28px;
   }
+
   .product {
     padding: 18% 0 0;
   }

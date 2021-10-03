@@ -38,6 +38,9 @@
 .btn-success {
     margin-left: 50%;
 }
+.bcontact{
+  margin-left: 45%;
+}
 .button a{
   color: white;
 }
@@ -159,6 +162,9 @@
   }
   .btn-success {
       margin-left: 40%;
+  }
+  .bcontact{
+    margin-left: 35%;
   }
   .card-prduct .info-wrap{
     padding: 2% 0 25%;

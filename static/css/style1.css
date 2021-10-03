@@ -19,6 +19,28 @@
 #testimonials .testimonial-item {
     margin-bottom: 1%;
 }
+#services {
+    padding: 60px 0 0px 0;
+}
+#services .title {
+    font-size: 100%;
+    color: black;
+    margin-left:0;
+}
+#service .title {
+    font-size: 100%;
+    color: black;
+    margin-left: 0;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.btn-success {
+    margin-left: 50%;
+}
+.button a{
+  color: white;
+}
 /* Pet Adoption */
 .product{
   border:1px solid #ccc;
@@ -69,13 +91,13 @@
   object-fit: cover;
   background-color:rgba(240, 242, 245, 1);
   width:100%;
-
+  border-radius: 4%;
 }
 .card-prduct .info-wrap{
   overflow: hidden;
-  padding: 20px 0;
   border-top: 1px solid #eee;
-  background-color:rgba(240, 242, 245, 1);
+  padding: 2% 0 20%;
+  background-color: white;
 
 }
 .card-product .action-wrap{

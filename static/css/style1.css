@@ -96,7 +96,7 @@
 .card-prduct .info-wrap{
   overflow: hidden;
   border-top: 1px solid #eee;
-  padding: 2% 0 20%;
+  padding: 2% 0 9%;
   background-color: white;
 
 }
@@ -149,7 +149,7 @@
     height:50vh;
   }
   #hero h2 {
-    font-size: 22px;
+    font-size: 17px;
   }
   #hero h3 {
     font-size: 22px;
@@ -157,7 +157,12 @@
   #hero h1 {
     font-size: 28px;
   }
-
+  .btn-success {
+      margin-left: 40%;
+  }
+  .card-prduct .info-wrap{
+    padding: 2% 0 25%;
+  }
   .product {
     padding: 18% 0 0;
   }

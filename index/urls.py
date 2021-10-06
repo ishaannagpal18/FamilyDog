@@ -11,6 +11,6 @@ urlpatterns=[
     path('carcass/',views.carcass,name='carcass'),
     path('ceremony/',views.ceremony,name='ceremony'),
     path('memorabilia/',views.memorabilia,name='memorabilia'),
-    path('termsofservice/',views.termsofservice,name='termsofservice'),
-    path('privacypolicy/',views.privacypolicy,name='privacypolicy'),
+    path('gallery/',views.gallery,name='gallery'),
+    path('t&c/',views.tc,name='t&c'),
 ]

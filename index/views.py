@@ -51,8 +51,8 @@ def ceremony(request):
 def memorabilia(request):
     return render(request,'memorabilia.html')
 
-def termsofservice(request):
-    return render(request,'termsofservice.html')
+def gallery(request):
+    return render(request,'gallery.html')
 
-def privacypolicy(request):
-    return render(request,'privacypolicy.html')
+def tc(request):
+    return render(request,'t&c.html')

@@ -619,7 +619,7 @@ FamilyDog
         <figure>
       </div>
       <div class="button">
-        <button type="button" class="btn btn-success btn-md" name="button"><a href="{% url 'gallery'%}">View All</a></button>
+        <button type="button" class="btn btn-success btn-1 btn-md" name="button"><a href="{% url 'gallery'%}">View All</a></button>
       </div>
 
 
@@ -881,7 +881,20 @@ FamilyDog
           <div class="contact-address">
             <i class="bi bi-geo-alt"></i>
             <h3>Address</h3>
-            <address>{{ contactlist.address }}</address>
+            <address>
+              <div class="row">
+                <div class="col-lg-6 col-6">
+                  G-23/1, Rajouri Garden, <br>
+                  New Delhi-110027 <br><br>
+                </div>
+                <div class="col-lg-6 col-6">
+                  30, Madan Park, <br>
+                  East Punjabi Bagh, <br>
+                  New-Delhi-110026 <br>
+                </div>
+
+              </div>
+            </address>
           </div>
         </div>
 
@@ -889,7 +902,7 @@ FamilyDog
           <div class="contact-phone">
             <i class="bi bi-phone"></i>
             <h3>Phone Number</h3>
-            <p><a href="tel:+919711725747">{{ contactlist.phone }}</a></p>
+            <p><a href="tel:+919711725747">+919711725747</a></p>
           </div>
         </div>
 
@@ -897,7 +910,7 @@ FamilyDog
           <div class="contact-email">
             <i class="bi bi-envelope"></i>
             <h3>Email</h3>
-            <p><a href="mailto:familydog.petsitting@gmail.com">{{ contactlist.email }}</a></p>
+            <p><a href="mailto:familydog.petsitting@gmail.com">familydog.petsitting@gmail.com</a></p>
           </div>
         </div>
 

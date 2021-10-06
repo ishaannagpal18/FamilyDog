@@ -3,7 +3,7 @@ from .models import contactlist, contactform
 from django.core.mail import send_mail
 # Create your views here.
 def contactus(request):
-    contactlistdata = contactlist.objects.all()[0]
+    # contactlistdata = contactlist.objects.all()[0]
     if request.method == 'POST':
         name = request.POST.get('name')
         email = request.POST.get('email')
@@ -20,7 +20,7 @@ def contactus(request):
         contactformdata.save()
 
 
-    context = {
-        'contactlist':contactlistdata,
-    }
-    return render(request,'contact.html', context)
+    # context = {
+    #     'contactlist':contactlistdata,
+    # }
+    return render(request,'contact.html')

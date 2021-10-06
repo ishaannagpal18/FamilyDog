@@ -5,7 +5,7 @@ from .models import about,slider,featuredservices, services, clients, portfolio,
 from django.core.mail import send_mail
 
 def home(request):
-    contactlistdata = contactlist.objects.all()[0]
+    # contactlistdata = contactlist.objects.all()[0]
     if request.method == 'POST':
         name = request.POST.get('name')
         email = request.POST.get('email')
@@ -22,10 +22,10 @@ def home(request):
         contactformdata.save()
 
 
-    context = {
-        'contactlist':contactlistdata,
-    }
-    return render(request,'index.html',context)
+    # context = {
+    #     'contactlist':contactlistdata,
+    # }
+    return render(request,'index.html')
 
 def aboutus(request):
     return render(request,'about.html')

@@ -1,0 +1,111 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block title %}
+Pet Funeral
+{% endblock %}
+{% block content %}
+
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url({% static 'img/hero-carousel/funeral.jpg '%}); width: 100%;">
+            <div class="carousel-container">
+              <div class="container">
+                <h4 class="animate__animated animate__fadeInDown">Pet Funeral</h4>
+                <p class="animate__animated animate__fadeInUp">“Our team understands the pain of loss and ensures to provide you with all the support and best of services.”</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="featured-services">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 box">
+
+          <!-- <h4 class="title"><a href="">Pet Adoption</a></h4> -->
+          <p class="description">FamilyDog believes that our pets should receive the same respect as humans in all spheres of life even during the ultimate goodbye. To see your pet take his or her last breath in front of you is the most painful feeling.  It becomes more difficult when we don’t have enough information about the funeral rites of our pets. Our founder realized this pain during the demise of his best friend's pet “Lucy”. Despite working in the pet sector he was clueless as the spot they know for burial was under construction. Later on, while working on this project, we realized and asked our team that “Is this the pet funeral we can give to our pets who lived with us more years which covers a plethora of memories. Is it justified to dump them in a pit without anything of their remembrance? ”</p>
+        </div>
+      </div>
+    </div>
+  </section><br>
+  <section id="funeral">
+   <div class="container">
+    <div class="row funeral">
+      <div class="col-lg-6">
+        <h1>Deceased Pet Pickup</h1>
+        <p>We provide transport service either from a veterinary clinic or your home. Depending upon the distance, your deceased pet would be picked up as soon as possible. We cover the whole Delhi and outskirts of Delhi as well to limited pin codes of Gurgaon and Noida.</p>
+      </div>
+      <div class="col-lg-6">
+        <figure class="card card-prduct">
+          <div class="img-wrap" >
+            <img src="{% static 'img/deceased.jpg'%}" alt="">
+          </div>
+          <div class="info-wrap2">
+
+          </div>
+        <figure>
+
+      </div><br><br><br>
+      <div class="col-lg-6 col-lg-push-6">
+        <h1>Carcass Disposal</h1>
+        <p>The most appropriate method would be suggested to the pet parents according to the nearest carcass disposal service available. Pet parents can choose either burial or incineration as the mode of carcass disposal for their pets. Pet parents can take ashes with themselves to scatter them in the holy river of Ganga.</p>
+      </div><br>
+      <div class="col-lg-6 col-lg-pull-6">
+        <figure class="card card-prduct">
+          <div class="img-wrap" >
+            <img src="{% static 'img/carcass1.jpg'%}" alt="">
+          </div>
+          <div class="info-wrap2">
+
+          </div>
+        <figure>
+
+      </div>
+      <div class="col-lg-6">
+        <h1>Religious Ceremony Of Deceased Pet</h1>
+        <p>Either Birth or Death marks the most important events. It is just the disposal of the body not the soul like an individual changes clothes. The religious ceremony is performed by a priest to facilitate the last rites a soul deserves.</p>
+      </div>
+      <div class="col-lg-6">
+        <figure class="card card-prduct">
+          <div class="img-wrap" >
+            <img src="{% static 'img/funeral1.jpg'%}" alt="">
+          </div>
+          <div class="info-wrap2">
+
+          </div>
+        <figure>
+
+      </div><br>
+      <div class="col-lg-6 col-lg-push-6">
+        <h1>Pet Memorabilia</h1>
+        <p>Whether it be a paw print on a cement tile, a headstone, or even an urn, we got you covered. We can try our best to provide anything as per the request as well. We are continuously making efforts to expand this segment and provide a product that pet parents can cherish throught the life in remembrance of their pets.</p>
+      </div>
+      <div class="col-lg-6 col-lg-pull-6">
+        <figure class="card card-prduct">
+          <div class="img-wrap" >
+            <img src="{% static 'img/funeral3.jpg'%}" alt="">
+          </div>
+          <div class="info-wrap2">
+
+          </div>
+        <figure>
+
+      </div>
+      <br>
+    </div><br><br>
+
+   </div>
+
+  </section>
+
+{% endblock %}

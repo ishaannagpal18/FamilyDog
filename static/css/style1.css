@@ -16,6 +16,26 @@
     font-size: 40px;
     font-weight: 800;
 }
+#hero h4 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-weight: 300;
+}
+#hero p{
+  font-size: 30px;
+  width: 100%;
+}
+.funeral h1{
+  color: black;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.funeral p{
+  font-size: 18px;
+  color: grey;
+}
 #testimonials .testimonial-item {
     margin-bottom: 1%;
 }
@@ -124,7 +144,9 @@
   color: black;
 
 }
-
+.card-prduct .info-wrap2{
+  padding: 2% 0 8%;
+}
 
 
 /* Login and Signup Page */
@@ -160,6 +182,18 @@
   }
   #hero h1 {
     font-size: 28px;
+  }
+  #hero h4{
+    font-size: 35px;
+  }
+  #hero p {
+    font-size: 12px;
+  }
+  .funeral h1{
+    font-size: 30px;
+  }
+  .funeral p{
+    font-size: 16px;
   }
   .btn-1 {
       margin-left: 40%;

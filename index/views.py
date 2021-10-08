@@ -39,6 +39,9 @@ def testimonials(request):
 def services(request):
     return render(request,'services.html')
 
+def funeral(request):
+    return render(request,'funeral.html')
+
 def deceased(request):
     return render(request,'deceased.html')
 

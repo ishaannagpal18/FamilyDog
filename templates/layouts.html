@@ -31,8 +31,9 @@
   <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="{% static 'css/style.css'%}" rel="stylesheet">
-  <link href="{% static 'css/style2.css'%}" rel="stylesheet">
+  <link href="{% static 'css/style1.css'%}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: BizPage - v5.5.0
@@ -60,16 +61,8 @@
             <ul>
               <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
               <li><a href="{% url 'Adoption:adoption' %}">Pet Adoption</a></li>
-          <li><a href="#">Pet Products</a></li>
-          <li class="dropdown"><a href="#"><span>Pet Funeral</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-
-              <li><a href="{% url 'deceased' %}">Deceased Pet Pick Up</a></li>
-              <li><a href="{% url 'carcass' %}">Carcass Disposal</a></li>
-              <li><a href="{% url 'ceremony' %}">Religious Ceremony</a></li>
-              <li><a href="{% url 'memorabilia' %}">Pet Memorabilia</a></li>
-
-            </ul>
+              <li><a href="#">Pet Products</a></li>
+              <li><a href="{% url 'funeral' %}">Pet Funeral</a></li>
           </li>
 
 
@@ -92,7 +85,7 @@
               <li><a class="nav-link scrollto" href="{% url 'contact' %}">Contact</a></li>
               {% if user.is_authenticated %}
 
-            
+
 
               <li><a href="{% url 'App_Login:logout' %}">Logout</a></li>
 
@@ -137,10 +130,7 @@ Our vision thrives to add value to society and give our amazing pets the best of
               <li><i class="bi bi-chevron-right"></i> <a href="{% url 'home' %}">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="{% url 'Adoption:adoption' %}">Pet Adoption</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Pet Products</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'deceased' %}">Deceased Pet Pick Up</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'carcass' %}">Carcass Disposal</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'ceremony' %}">Religious Ceremony</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'memorabilia' %}">Pet Memorabilia</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'funeral' %}">Pet Funeral</a></li>
             </ul>
           </div>
 

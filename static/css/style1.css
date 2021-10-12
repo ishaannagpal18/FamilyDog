@@ -122,7 +122,18 @@
   border-top: 1px solid #eee;
   padding: 2% 0 15%;
   background-color: white;
-
+}
+.card-prduct .info-wrap-adoption {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding: 2% 0 25%;
+    background-color: rgba(240, 242, 245, 1);
+    border-radius: 30%;
+}
+.card-prduct a {
+    font-size: 120%;
+    color: black;
+    font-weight: 800;
 }
 .card-product .action-wrap{
   padding-top: 4px;
@@ -203,6 +214,9 @@
   }
   .card-prduct .info-wrap{
     padding: 2% 0 36%;
+  }
+  .card-prduct .info-wrap-adoption {
+      padding: 2% 0 30%;
   }
   .product {
     padding: 18% 0 0;

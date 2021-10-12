@@ -17,8 +17,13 @@ Pet Adoption
           <div class="img-wrap">
             <a href="{% url 'Adoption:adoption_details' pk=adoption.pk %}"> <img src="/media/{{adoption.mainimage1}}"></a>
           </div>
-          <figcaption class="info-wrap">
-            <h6 class="title"><a href="{% url 'Adoption:adoption_details' pk=adoption.pk %}"></a></h6>
+          <figcaption class="info-wrap-adoption">
+            <h6 class="title"><a href="{% url 'Adoption:adoption_details' pk=adoption.pk %}">{{adoption.name}}</a></h6>
+            <div class="action-wrap">
+              <div class="price-wrap h5">
+                <span class="price=-new"></span>
+              </div>
+            </div>
           </figcaption>
         <figure>
       </div>

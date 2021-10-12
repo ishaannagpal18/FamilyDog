@@ -218,6 +218,10 @@
   .card-prduct .info-wrap-adoption {
       padding: 2% 0 30%;
   }
+  .card-prduct a {
+    font-size: 80%;
+
+  }
   .product {
     padding: 18% 0 0;
   }

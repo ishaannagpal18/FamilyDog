@@ -87,9 +87,11 @@
   text-align:center;
 }
 .card{
-  background-color:rgba(240, 242, 245, 1);
   height: 0%;
   width: 100%;
+}
+.card{
+  background-color:black;
 }
 .card-product:after{
   content: "";
@@ -117,6 +119,9 @@
   width:100%;
   border-radius: 4%;
 }
+.card-prduct .img-wrap-adoption img{
+  margin-bottom:10%;
+}
 .card-prduct .info-wrap{
   overflow: hidden;
   border-top: 1px solid #eee;
@@ -126,12 +131,12 @@
 .card-prduct .info-wrap-adoption {
     overflow: hidden;
     border-top: 1px solid #eee;
-    padding: 2% 0 25%;
+    padding: 2% 0 20%;
     background-color: rgba(240, 242, 245, 1);
     border-radius: 30%;
 }
 .card-prduct a {
-    font-size: 120%;
+    font-size: 100%;
     color: black;
     font-weight: 800;
 }
@@ -180,6 +185,9 @@
 .padding{
   padding-top:50px;
   padding-bottom:50px;
+}
+.adoption-bg{
+  background-color: black;
 }
 @media screen and (max-width: 550px){
   #hero{

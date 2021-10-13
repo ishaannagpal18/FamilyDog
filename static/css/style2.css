@@ -4,6 +4,10 @@
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   top: 20px;
 }
+.carousel-indicators .active {
+    width: 4%;
+    height: 4px;
+}
 #hero h3 {
     color: #fff;
     margin-bottom: 30px;
@@ -90,7 +94,7 @@
   height: 0%;
   width: 100%;
 }
-.card{
+.card-adoption{
   background-color:black;
 }
 .card-product:after{

@@ -93,9 +93,9 @@
   color: white;
   margin-bottom: 0;
   line-height: 1.5;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: bold;
-  margin-left: 40%;
+  padding-left: 70px;
 }
 #overlay2{
   position: fixed;
@@ -311,7 +311,7 @@
   .modal-body{
     font-size: 100%;
   }
-  .model2{
+  .modal2{
     display: flex;
   }
   #hero{

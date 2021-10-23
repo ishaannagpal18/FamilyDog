@@ -93,9 +93,10 @@
   color: white;
   margin-bottom: 0;
   line-height: 1.5;
-  font-size: 100%;
+  font-size: 120%;
   font-weight: bold;
   padding-left: 70px;
+  margin-top: 3%;
 }
 #overlay2{
   position: fixed;

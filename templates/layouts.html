@@ -47,6 +47,30 @@
 </head>
 
 <body>
+  <!-- <button data-modal-target="#modal1" type="button" name="button"></button> -->
+  <div class="modal1 active" id="modal1">
+    <center>
+    <div class="modal-header1">
+      <div class="title">
+        Call To Funeral Manager
+      </div>
+      <button data-close-button type="button" class="close-button" name="button">&times;</button>
+    </div>
+    <div class="modal-body">
+      If you have any Question <br>
+       or Query,<br>
+       Please contact our <br>
+       Funeral Manager. <br> <br>
+       <div class="call">
+         Call Us - 9711725747 <br>
+       </div>
+
+    </div>
+  </center>
+  </div>
+  <div  id="overlay">
+
+  </div>
   {% block css_block %}
 
   {% endblock %}
@@ -213,6 +237,7 @@ Our vision thrives to add value to society and give our amazing pets the best of
 
   <!-- Template Main JS File -->
   <script src="{% static 'js/main.js'%}"></script>
+  <script src="{% static 'js/main1.js'%}"></script>
 
 </body>
 

@@ -1,6 +1,70 @@
 #header.header-transparent {
   background: #000000;
 }
+.modal1{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: black;
+  width: 500px;
+  max-width: 80%;
+}
+.modal1.active{
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal-header1{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.modal-header1 .title{
+  color: white;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 200%;
+  font-weight: bold;
+}
+.modal-header1 .close-button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+}
+.modal-body{
+  padding: 10px 15px;
+  font-size: 150%;
+  color: white;
+}
+.modal-body .call{
+  font-size: 100%;
+  font-weight: bold;
+  color: white;
+}
+#overlay{
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+#overlay.active{
+  opacity: 1;
+  pointer-events: all;
+}
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   top: 20px;
 }
